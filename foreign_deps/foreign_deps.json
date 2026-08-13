@@ -152,6 +152,19 @@
             }
         }
     },
+    "native_toolchain_rust": {
+        "1.0.4": {
+            "manifest": {
+                "sources": [
+                    {
+                        "type": "patch",
+                        "path": "native_toolchain_rust/build_runner.dart.patch",
+                        "dest": "$PUB_DEV"
+                    }
+                ]
+            }
+        }
+    },
     "pdfium_dart": {
         "0.1.2": {
             "manifest": {
