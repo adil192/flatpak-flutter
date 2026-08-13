@@ -105,6 +105,19 @@
             }
         }
     },
+    "hooks_runner": {
+        "1.1.1": {
+            "manifest": {
+                "sources": [
+                    {
+                        "type": "patch",
+                        "path": "hooks_runner/1.1.1-build_runner.dart.patch",
+                        "dest": "$PUB_DEV"
+                    }
+                ]
+            }
+        }
+    },
     "media_kit_libs_linux": {
         "1.2.1": {
             "manifest": {
